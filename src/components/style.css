@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: #ffff;
+  background: rgb(142, 73, 232);
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: linear-gradient(to bottom, #68eacc 0%, #497be8 100%);
+}
+.containers {
+  margin: 30px auto 200px auto;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
+  height: fit-content;
+  padding: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.todolist {
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  border: none;
+  margin: 0px auto;
+  padding: 25px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.completedlist {
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
+  height: fit-content;
+  padding: 25px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.wrapper h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.wrapper .inputField {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  height: 45px;
+}
+.error {
+  padding: 7px;
+  color: red;
+}
+.buttons {
+  width: 95px;
+  height: 100%;
+  padding: 3px 3px 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  background: #7116e7;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.8;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.button {
+  height: 30px;
+  width: 200px;
+  padding: 3px 3px 3px 3px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  outline: none;
+  background: #ff028e;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+.lists {
+  margin: 20px 0;
+}
+.lists li {
+  position: relative;
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 8px;
+  background: linear-gradient(to right, #179477 20%, #49b4e6 80%);
+
+  border-radius: 3px;
+  padding: 0 15px;
+  cursor: default;
+  overflow: hidden;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.completedlistelement h4 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.completedlistelement li {
+  position: relative;
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 8px;
+  background: linear-gradient(to right, #ccea68 20%, #49e879 80%);
+  border-radius: 3px;
+  padding: 0 15px;
+  cursor: default;
+  overflow: hidden;
+  max-height: 250px;
+  overflow-y: auto;
+}
