@@ -1,5 +1,4 @@
 # TODO LIST
-Project link: (https://todoapp-pooja.herokuapp.com/)
 
 ## Tool & Framework
 * React.js
